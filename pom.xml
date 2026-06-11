@@ -42,10 +42,10 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${basedir}/target/extra-resources</outputDirectory>
+                            <outputDirectory>${project.basedir}/docs</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>src/non-packaged-resources</directory>
+                                    <directory>src/Main/resources</directory>
                                     <filtering>true</filtering>
                                 </resource>
                             </resources>
